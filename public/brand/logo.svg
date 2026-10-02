@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-label="De Fotografische Gastvrouw logo placeholder">
+  <rect width="320" height="320" fill="#f5f0e7" />
+  <circle cx="160" cy="160" r="118" fill="none" stroke="#342e29" stroke-width="2" />
+  <circle cx="160" cy="160" r="36" fill="none" stroke="#342e29" stroke-width="3" />
+  <circle cx="160" cy="160" r="14" fill="#9c8eb5" />
+  <path d="M160 42C116 42 80 78 80 122" fill="none" stroke="#77775d" stroke-width="2" stroke-linecap="round" />
+  <path d="M240 198C240 242 204 278 160 278" fill="none" stroke="#c96d55" stroke-width="2" stroke-linecap="round" />
+  <text x="160" y="298" text-anchor="middle" font-size="18" fill="#342e29" font-family="Palatino Linotype, serif">De Fotografische Gastvrouw</text>
+</svg>

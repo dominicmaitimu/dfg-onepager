@@ -1,0 +1,39 @@
+@keyframes riseIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatLeaf {
+  from {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  to {
+    transform: translateY(-6px) rotate(3deg);
+  }
+}
+
+.panel {
+  animation: riseIn 0.7s ease both;
+}
+
+.botanical {
+  animation: floatLeaf 6s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .panel,
+  .botanical,
+  .story-canvas {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

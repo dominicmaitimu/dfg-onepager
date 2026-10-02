@@ -1,0 +1,24 @@
+:root {
+  --color-paper: #f5f0e7;
+  --color-paper-light: #faf8f2;
+  --color-ink: #342e29;
+  --color-olive: #77775d;
+  --color-lavender: #9c8eb5;
+  --color-poppy: #c96d55;
+  --color-pink: #d9a1a2;
+  --color-muted: #9a9389;
+  --color-line: #cbbfad;
+
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+  --space-xl: 8rem;
+
+  --radius-small: 3px;
+  --radius-medium: 8px;
+
+  --shadow-soft: 0 10px 30px rgba(53, 45, 39, 0.1);
+  --content-width: 1200px;
+}

@@ -1,0 +1,46 @@
+:root {
+  --font-display: 'Iowan Old Style', 'Palatino Linotype', Palatino, serif;
+  --font-body: 'Source Serif 4', 'Georgia', serif;
+  --font-hand: 'Segoe Script', 'Bradley Hand', cursive;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(2rem, 4.3vw, 4.4rem);
+}
+
+h2 {
+  font-size: clamp(1.6rem, 2.7vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.1rem, 1.6vw, 1.6rem);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.75rem;
+  color: var(--color-olive);
+  margin-bottom: var(--space-sm);
+}
+
+.handwritten {
+  font-family: var(--font-hand);
+  color: var(--color-poppy);
+  font-size: 1.05em;
+}
